@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Panel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Admin Panel</h1>
+  </header>
+  <main>
+    <section id="addMovieSection">
+      <h2>Add New Movie</h2>
+      <label for="movieUrl">Movie Embed URL:</label>
+      <input type="text" id="movieUrl" placeholder="Enter movie URL">
+      <button id="addMovieBtn">Add Movie</button>
+    </section>
+
+    <section id="movieListSection">
+      <h2>Current Movies</h2>
+      <ul id="movieList">
+        <!-- Movie List Will Appear Here -->
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Your Movie Streaming</p>
+  </footer>
+
+  <script src="admin.js"></script>
+</body>
+</html>
